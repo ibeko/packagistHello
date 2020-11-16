@@ -1,0 +1,18 @@
+{
+    "name": "kordinaryus/hello",
+    "description": "first self package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bekir Kökkuş",
+            "email": "bekirkokkus@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        
+        "psr-4" : {
+            "Hello\\":"src"       
+        }
+    }
+}
